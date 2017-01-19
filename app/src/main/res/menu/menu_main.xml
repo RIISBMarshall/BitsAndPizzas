@@ -4,6 +4,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     tools:context=".MainActivity">
 
+    <!-- android:showAsAction might be highlighted as an error in the ide but it works just fine-->
     <item android:id="@+id/action_create_order"
         android:title="@string/action_create_order"
         android:icon="@drawable/ic_action_new_event"

@@ -37,5 +37,4 @@ public class PizzaMaterialFragment extends Fragment {
         pizzaRecycler.setLayoutManager(layoutManager);
         return pizzaRecycler;
     }
-
 }

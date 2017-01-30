@@ -1,6 +1,7 @@
 package com.example.bmarshall.bitsandpizzas;
 
 import android.graphics.drawable.Drawable;
+import android.support.v4.content.ContextCompat;
 import android.support.v7.widget.CardView;
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
@@ -41,7 +42,7 @@ class CaptionedImagesAdapter extends RecyclerView.Adapter<CaptionedImagesAdapter
     public void onBindViewHolder(ViewHolder holder, int position){
         CardView cardView = holder.cardView;
         ImageView imageView = (ImageView) cardView.findViewById(R.id.info_image);
-        Drawable drawable = cardView.getResources().getDrawable(imageIds[position]);
+        Drawable drawable = ContextCompat.getDrawable(cardView.getContext(), imageIds[position]);
         imageView.setImageDrawable(drawable);
         imageView.setContentDescription(captions[position]);
         TextView textView = (TextView) cardView.findViewById(R.id.info_text);

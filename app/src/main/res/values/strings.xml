@@ -17,6 +17,8 @@
     </string-array>
     <string name="open_drawer">Open drawer</string>
     <string name="Close_drawer">Close drawer</string>
+    <string name="welcome_text">We offer a range of freshly baked pizza and pasta dishes.
+    why not try some?</string>
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
